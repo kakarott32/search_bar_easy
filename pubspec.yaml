@@ -1,0 +1,19 @@
+name: search_bar_easy
+description: AppBar with animated search functionality that can be used as regular or floating AppBar
+version: 1.0.0
+homepage: https://github.com/kakarott32/search_bar_easy
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
