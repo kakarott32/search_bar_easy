@@ -1,4 +1,3 @@
-
 library search_bar_easy;
 
 import 'dart:async';
@@ -321,7 +320,7 @@ class _SearchBarEasyState extends State<SearchBarEasy> with TickerProviderStateM
 
     IconThemeData iconTheme = widget.iconTheme ?? appBarTheme.iconTheme ?? theme.iconTheme.copyWith(color: foregroundColor);
 
-    TextStyle? titleTextStyle = widget.titleTextStyle ?? appBarTheme.titleTextStyle ?? theme.textTheme.headline6!.copyWith(color: foregroundColor);
+    TextStyle? titleTextStyle = widget.titleTextStyle ?? appBarTheme.titleTextStyle ?? theme.textTheme.titleLarge!.copyWith(color: foregroundColor);
 
     double? elevation = widget.elevation ?? appBarTheme.elevation ?? 5;
 

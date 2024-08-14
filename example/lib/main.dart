@@ -1,4 +1,4 @@
-import 'package:easy_search_bar/easy_search_bar.dart';
+import 'package:search_bar_easy/search_bar_easy.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: 'Example',
         theme: ThemeData(primarySwatch: Colors.orange),
         home: Scaffold(
-            appBar: EasySearchBar(
+            appBar: SearchBarEasy(
                 title: const Text('Example'),
                 onSearch: (value) => setState(() => searchValue = value),
                 actions: [
